@@ -237,5 +237,74 @@ path.current-flat{
     cursor: pointer;
     border: none;
     background-color: #fff;
-
+}
+.footer{
+    background-color: #D7D7D7;
+    min-height: 171px;
+    border-top: 4px solid #3596F5;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 62px;
+}
+.footer-logo{
+    display: block;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-navbar-contacts{
+    text-align: right;
+    margin-left: 37px;
+    margin-right: 70px;
+}
+.footer-navbar-text{
+    display: block;
+    color: #635854;
+    margin-bottom: 4px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer-navbar-phone{
+    color: #635854;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.footer-social{
+    width: 125px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-link svg path:hover{
+    fill: #3596F5;
+    cursor: pointer;
+}
+.footer-navbar-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.footer-navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-navbar-link{
+    color: #635854;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer-navbar-link:hover{
+    color: #3596F5;
+    cursor: pointer;
 }
