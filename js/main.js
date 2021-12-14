@@ -51,7 +51,6 @@ $(document).ready(function () {
 
     flatItem.on('mouseover', function(){
         var flat = $(this).index();
-        flatPath.removeClass("current-flat");
         $(`[data-flat=${flat}]`).toggleClass('current-flat');
         flatlLnk.removeClass("is-active");
     });
@@ -59,7 +58,6 @@ $(document).ready(function () {
     flatPath.on('mouseover', function(){
         flatPath.removeClass("current-flat");
         var flat = $(this).attr('data-flat');
-        flatlLnk.removeClass("is-active");
         flatItem.eq(flat).find('a').toggleClass('is-active');
     });
 
